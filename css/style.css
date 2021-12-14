@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+	font-family: 'Roboto';
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+#hero-slides{
+	padding: 5%;
+}
+#hero-slides h3{
+	font-weight: 100;
+	padding: 3%;
+}
+#intro{
+	text-align: center;
+	color: var(--color-negro);
+	padding-bottom: 12%;
+}
+#intro h3{
+	padding: 5%;
+	font-weight: 800;
+}
+.resize{
+	width: 500px;
+	height: auto;
+
+}
+#intro p{
+	color: gray;
+	font-size: 14px;
+}
+#services{
+	text-align: center;
+}
+#services h3{
+	padding: 3%;
+	font-weight: 600;
+}
+#services p{
+	padding-bottom: 10%;
+	font-size: 14px;
+	color: gray;
+}
+#cta{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-image: url("../img/home-grid-banner.jpg");
+	color: white;
+	font: 300;
+	font: bold;
+}
+#cta h2{
+	font-size: 50px;
+}
+#cta .btn.btn-light{
+	border-radius: 1;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+#clients{
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
